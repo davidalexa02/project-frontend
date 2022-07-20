@@ -86,15 +86,13 @@ if (isset($_POST['submit'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-    <!-- <script src="https://kit.fontawesome.com/d4926dda45.js" crossorigin="anonymous"></script> -->
-    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /> -->
-    <link rel="stylesheet" href="styleform.css">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="swiper-bundle.min.css">
-    <link rel="stylesheet" href="aos.css">
-    <script src="d4926dda45.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/swipper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/aos/aos.css">
+    <script src="assets/fontawesome/d4926dda45.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/Logo.png">
+    <title>D & P Communications</title>
 </head>
 
 <body>
@@ -106,7 +104,7 @@ if (isset($_POST['submit'])) {
 
     <!--start of contact form-->
 
-    <div class="first head pb-5">
+    <div class="firstofall head pb-5">
         <div class="primer container py-5">
 
             <div class="card" data-aos="fade-up">
@@ -194,7 +192,7 @@ if (isset($_POST['submit'])) {
                                 <div class="form-row">
                                     <div class="form-group col-lg-12 col-md-12 col-sm-12 col-12">
                                         <label for="formFile" class="form-label">Please attach your CV / resume in PDF format</label>
-                                        <input type="file" name="formFile" id="formFile" onclick="return fileValidation()" accept="application/pdf,application/vnd.ms-excel" class="form-control" required>
+                                        <input type="file" name="formFile" id="formFile" onchange="return fileValidation()" accept="application/pdf,application/vnd.ms-excel" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="form-row">
@@ -223,13 +221,12 @@ if (isset($_POST['submit'])) {
 
     <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
 
-    <script src="jquery-3.2.1.slim.min.js"></script>
-    <script src="popper.min.js"></script>
-    <script src="bootstrap.min.js"></script>
-    <script src="swiper.js"></script>
+    <script src="assets/bootstrap/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/bootstrap/popper.min.js"></script>
+    <script src="assets/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/swipper/swiper.js"></script>
     <script type="text/javascript" src="main.js"></script>
-    <script src="aos.js"></script>
-    <script src="smtp.js"></script>
+    <script src="assets/aos/aos.js"></script>
     <script>
         AOS.init();
     </script>
