@@ -58,7 +58,7 @@ if (isset($_POST['submit'])) {
 
         $mail->isHTML(true);
         $mail->Subject = 'Form Submission';
-        $mail->Body = "<h3>Name : $name <br>Email : $email <br>Message : $message<br>Newsletter: $newsletter<br>Contact method: $how </h3>";
+        $mail->Body = "<p>Name : $name <br>Email : $email <br>Message : $message<br>Newsletter: $newsletter<br>Contact method: $how </p>";
         $mail->addAttachment($fileport, $filename);
 
         $result = $mail->send();

@@ -52,10 +52,6 @@ body {
     font-weight: bolder !important;
 }
 
-.pi>img {
-    padding-right: 5%;
-}
-
 .col-lg-4 {
     text-align: center;
     background-color: black;
@@ -212,11 +208,17 @@ body {
     position: relative;
 }
 
+.fa-phone,
+.fa-envelope {
+    font-size: 25px;
+}
+
 .firstofall {
     background-color: #161616;
     background-image: url("img/obrero.png");
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 5%;
 }
 
 .second {
@@ -271,7 +273,7 @@ body {
 }
 
 #forhome {
-    background-image: url('img/forhoem.png') !important;
+    background-image: url('img/forhoem.png');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -288,7 +290,7 @@ body {
     margin-right: 15px;
 }
 
-#forhome:hover {
+div#forhome:hover {
     color: #212529;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0), url('img/forhoem.png');
     border-color: #dae0e5;
@@ -483,8 +485,13 @@ body {
     background-size: 50% auto;
 }
 
+#nextbut1, #prevbut1{
+    top: 52%!important;
+}
+
 .swiper-button-prev {
     position: absolute;
+    top:52% !important;
 }
 
 .swiper {
@@ -628,40 +635,6 @@ body {
     margin-bottom: 30px;
 }
 
-#myBtn{
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Fixed/sticky position */
-    bottom: 20px;
-    /* Place the button at the bottom of the page */
-    right: 30px;
-    /* Place the button 30px from the right */
-    z-index: 99;
-    /* Make sure it does not overlap */
-    border: none;
-    /* Remove borders */
-    outline: none;
-    /* Remove outline */
-    background-color: red;
-    /* Set a background color */
-    color: white;
-    /* Text color */
-    cursor: pointer;
-    /* Add a mouse pointer on hover */
-    padding: 15px;
-    /* Some padding */
-    border-radius: 100%;
-    /* Rounded corners */
-    font-size: 30px;
-    /* Increase font size */
-}
-
-#myBtn:hover {
-    background-color: #555;
-    /* Add a dark-grey background on hover */
-}
-
 /*
 
 .We_are_continuously_expanding_and_maintaining_t {
@@ -680,10 +653,6 @@ body {
 */
 
 @media (min-width: 1543px) {
-    .izquierdo {
-        font-size: 80px;
-        line-height: 1.075;
-    }
 }
 
 @media (min-width:1393px) {
@@ -703,21 +672,21 @@ body {
 
 @media (min-width: 1200px) {
 
-    .blbat {
+    /* .blbat {
         margin-left: 15% !important;
         margin-right: 15% !important;
-    }
+    } */
 
     #locallyinv.container {
         max-width: 1393px !important;
     }
 
-    .deabajo>.container {
+    /* .deabajo>.container {
         max-width: 1312px !important;
-    }
+    } */
 
     .efe {
-        width: 91px;
+        width: 76px;
     }
 
     #succst {
@@ -802,6 +771,10 @@ body {
 }
 
 @media (min-width:992px) {
+    .izquierdo {
+        font-size: 80px;
+        line-height: 1.075;
+    }
 
     .container-fluid>.container {
         max-width: 95% !important;
@@ -834,8 +807,47 @@ body {
     }
 }
 
-/*@media (min-width: 767px){
-}*/
+@media (min-width: 768px) {
+
+
+    #myBtn {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Fixed/sticky position */
+        bottom: 20px;
+        /* Place the button at the bottom of the page */
+        right: 30px;
+        /* Place the button 30px from the right */
+        z-index: 99;
+        /* Make sure it does not overlap */
+        border: none;
+        /* Remove borders */
+        outline: none;
+        /* Remove outline */
+        background-color: red;
+        /* Set a background color */
+        color: white;
+        /* Text color */
+        cursor: pointer;
+        /* Add a mouse pointer on hover */
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 18px;
+        padding-left: 18px;
+        /* Some padding */
+        border-radius: 100%;
+        /* Rounded corners */
+        font-size: 23px;
+        /* Increase font size */
+    }
+
+    #myBtn:hover {
+        background-color: #555;
+        /* Add a dark-grey background on hover */
+    }
+
+}
 
 @media (min-width: 722px) {
     .cont1 {
@@ -931,14 +943,9 @@ body {
     }
 */
 
-@media (max-width: 1542px) {
+@media (max-width: 1543px) {
     #unico {
         margin-right: 60px;
-    }
-
-    .izquierdo {
-        font-size: 50px;
-        line-height: 1.075;
     }
 }
 
@@ -1013,7 +1020,11 @@ body {
     }
 }
 
-@media (max-width:991px) {
+@media (max-width:992px) {
+    .izquierdo {
+        font-size:50px;
+        line-height: 1.075;
+    }
 
     #derecho {
         padding-top: 10% !important;
@@ -1021,10 +1032,7 @@ body {
         padding-left: 0% !important;
         font-size: 19px;
     }
-
-    .navbar2 {
-        background-color: rgb(0, 0, 0);
-    }
+    
 
     .navbar2 .navo {
         color: white;
@@ -1039,6 +1047,20 @@ body {
 
     .navbar {
         padding: 0% !important;
+    }
+
+    .navbar2 {
+        background-color: rgb(0, 0, 0);
+    }
+}
+
+@media (width:992px) {
+    .navbar2{
+        background-color: white;
+    }
+
+    .navbar2 .navo {
+        color: black;
     }
 }
 
@@ -1092,6 +1114,44 @@ body {
 
     #rou {
         margin: auto;
+    }
+
+
+    #myBtn {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Fixed/sticky position */
+        bottom: 20px;
+        /* Place the button at the bottom of the page */
+        right: 30px;
+        /* Place the button 30px from the right */
+        z-index: 99;
+        /* Make sure it does not overlap */
+        border: none;
+        /* Remove borders */
+        outline: none;
+        /* Remove outline */
+        background-color: red;
+        /* Set a background color */
+        color: white;
+        /* Text color */
+        cursor: pointer;
+        /* Add a mouse pointer on hover */
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-right: 12px;
+        padding-left: 12px;
+        /* Some padding */
+        border-radius: 100%;
+        /* Rounded corners */
+        font-size: 20px;
+        /* Increase font size */
+    }
+
+    #myBtn:hover {
+        background-color: #555;
+        /* Add a dark-grey background on hover */
     }
 
 }
