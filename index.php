@@ -75,6 +75,14 @@ if (isset($_POST['submit'])) {
                   <h5>' . $e->getMessage() . '</h5>
                 </div>';
     }
+
+    if (isset($_POST['submit'])) {
+?>
+        <script type="text/javascript">
+            window.location = "http://project-frontend/index.php#este2";
+        </script>
+<?php
+    }
 }
 
 ?>
@@ -91,7 +99,7 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="assets/swipper/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/aos/aos.css">
     <script src="assets/fontawesome/d4926dda45.js"></script>
-    <link rel="icon" type="image/x-icon" href="img/Logo.png">
+    <link rel="icon" type="image/x-icon" href="img/unnamed.png">
     <title>D & P Communications</title>
 </head>
 
@@ -111,11 +119,11 @@ if (isset($_POST['submit'])) {
                 </div>
             </div>
 
-            <div class="row pb-lg-5 justify-content-lg-center text-lg-left text-center align-self-center mb-5">
-                <div id="d1" class="col-lg-6 align-self-center mx-0">
+            <div class="row pb-lg-5 justify-content-lg-around text-lg-left text-center align-self-center mb-5">
+                <div id="d1" class="col-lg align-self-center mx-auto py-3">
                     <b data-aos-once="true" data-aos="fade-up" class="izquierdo">Connecting You to What Matters</b>
                 </div>
-                <div id="derecho" class="col-lg-6 mx-0 align-self-center p-0">
+                <div id="derecho" class="col-lg mx-auto align-self-center px-0 py-3">
                     <p data-aos-once="true" data-aos="fade-up">D & P Communications serves residents and
                         businesses with a full suite of communication & techonology services, including high-speed
                         Internet, video entertainment, phone systems, and network management.</p>
@@ -151,7 +159,7 @@ if (isset($_POST['submit'])) {
                 </div>
             </div>
             <div class="row text-md-left text-center py-4">
-                <div class="col-md-7">
+                <div class="recol col">
                     <b class="mid1" data-aos-once="true" data-aos="fade-up">Enjoy the Most Advanced Technology Available with Fiber Optics</b>
                 </div>
             </div>
@@ -202,7 +210,6 @@ if (isset($_POST['submit'])) {
                 </div>
             </div>
         </section>
-
     </div>
 
     <div class="third" id="puntouno">
@@ -397,7 +404,7 @@ if (isset($_POST['submit'])) {
                     <a type="button" id="read" class="for btn btn-light px-5" href="" data-aos-once="true" data-aos="fade-up">Read testimonials</a>
                 </div>
                 <div id="succstrow" class="row row-cols-3 mt-5 justify-content-center mx-auto">
-                    <div class="col-sm col-md col-lg col-xl mb-4">
+                    <div class="col-md mb-4">
                         <div class="card" data-aos-once="true" data-aos="fade-up">
                             <img src="img/card1.png" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -453,7 +460,7 @@ if (isset($_POST['submit'])) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm col-md col-lg col-xl mb-4">
+                    <div class="col-md mb-4">
                         <div class="card" data-aos-once="true" data-aos="fade-up">
                             <img src="img/card2.png" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -512,7 +519,7 @@ if (isset($_POST['submit'])) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm col-md col-lg col-xl mb-4">
+                    <div class="col-md mb-4">
                         <div class="card" data-aos-once="true" data-aos="fade-up">
                             <img src="img/card3.png" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -593,8 +600,8 @@ if (isset($_POST['submit'])) {
         </div>
     </section>
 
-    <div class="firstofall head pb-5" data-aos-once="true" data-aos="fade-up">
-        <div class="container py-5">
+    <div id="este2" class="firstofall head pb-5" data-aos-once="true" data-aos="fade-up">
+        <div id="formc" class="container py-5">
 
             <div class="card" data-aos-once="true" data-aos="fade-up">
                 <div class="card-body">
@@ -686,7 +693,7 @@ if (isset($_POST['submit'])) {
                                 </div>
                                 <div class="form-row">
                                     <div class="form-group col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <button type="submit" name="submit" value="Send" class="btn btn-danger btn-block" id="sendBtn">Send message!</button>
+                                        <button type="submit" name="submit" value="Send" id="sendBtn" class="btn btn-danger btn-block">Send message!</button>
                                     </div>
                                 </div>
                             </form>

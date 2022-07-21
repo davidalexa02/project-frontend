@@ -1,22 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/swipper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/aos/aos.css">
-    <script src="assets/fontawesome/d4926dda45.js"></script>
-    <link rel="icon" type="image/x-icon" href="assets/img/Logo.png">
-    <title>D & P Communications</title>
-</head>
-
-<body> -->
-
-<!--header-->
 
 <footer class="footer text-center text-lg-start text-muted">
     <!-- Section: Social media -->
@@ -50,7 +31,7 @@
                     <!-- Links -->
                     <img class="img-fluid pb-3" src="img/Logofoot.png" alt="logo">
                     <p class="mb-1">
-                        <img class="img-fluid pb-3 px-2 bg-light" src="img/adrianarea.png" alt="logo">
+                        <img id="adrianf" class="img-fluid pb-3 px-2 bg-light" src="img/adrianarea.png" alt="logo">
                     </p>
                     <p class="justify-content-center align-items-center">
                         <img id="efeuno" class="efe img-fluid" src="img/monroefoot.png" alt="logo">
@@ -219,16 +200,3 @@
     <!-- Copyright -->
 </footer>
 <!--end of footer-->
-
-<!-- <script src="assets/bootstrap/jquery-3.2.1.slim.min.js"></script>
-    <script src="assets/bootstrap/popper.min.js"></script>
-    <script src="assets/bootstrap/bootstrap.min.js"></script>
-    <script src="assets/swipper/swiper.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-    <script src="assets/aos/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-</body>
-
-</html> -->

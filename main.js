@@ -88,71 +88,14 @@ $('#read').click(function () {
     return false;
 });
 
-/*Validating form*/
-
-// function validateForm() {
-//     let fname = document.forms["formcontact"]["firstName"].value;
-//     let lname = document.forms["formcontact"]["lastName"].value;
-//     let email = document.forms["formcontact"]["email"].value;
-//     let phone = document.forms["formcontact"]["phone"].value;
-//     let message = document.forms["formcontact"]["message"].value;
-//     // let newsletter = document.forms["formcontact"]["newsletter"].value;
-//     // let contacts = document.forms["formcontact"]["contact"].value;
-//     // var file = document.forms["formcontact"]["formFile"].value;
-//     if (fname == "") {
-//         alert("First name must be filled out");
-//         return false;
-//     }
-//     if (lname == "") {
-//         alert("Last name must be filled out");
-//         return false;
-//     }
-//     if (email == "") {
-//         alert("Email must be filled out");
-//         return false;
-//     }
-//     if (phone == "") {
-//         alert("Phone must be filled out");
-//         return false;
-//     }
-//     if (message == "") {
-//         alert("Message must be filled out");
-//         return false;
-//     }
-//     /*if (newsletter == "") {
-//         alert("Name must be filled out");
-//         return false;
-//     }*/
-//     /*if (contacts == "") {
-//         alert("Name must be filled out");
-//         return false;
-//     }*/
-//     /*if (file == "") {
-//         alert("File must be selected");
-//         return false;
-//     }*/
-// }
-
-/*Example from smtp.com:
-
-function sendEmail() {
-    Email.send({
-        Host: "smtp.gmail.com",
-        Username: "adndavid8@gmail.com",
-        Password: "Barcaul99",
-        To: document.getElementById("email").value,
-        From: "adndavid8@gmail.com",
-        Subject: "This is the subject",
-        Body: "And this is the body",
-        Attachments: [
-            {
-                name: "smtpjs.png",
-                path: "https://networkprogramming.files.wordpress.com/2017/11/smtpjs.png"
-            }]
-    }).then(
-        message => alert(message)
-    );
-}*/
+$('#formbut').click(function () {
+    //optionally remove the 500 (which is time in milliseconds) of the
+    //scrolling animation to remove the animation and make it instant
+    $('html, body').animate({
+        scrollTop: $("#este2").offset().top
+    }, 2000);
+    return false;
+});
 
 //Get the button:
 mybutton = document.getElementById("myBtn");

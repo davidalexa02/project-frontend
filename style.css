@@ -52,7 +52,7 @@ body {
     font-weight: bolder !important;
 }
 
-.col-lg-4 {
+.col-lg-4.justify-content-center {
     text-align: center;
     background-color: black;
     font-weight: 600;
@@ -93,8 +93,8 @@ body {
 .nope {
     margin-top: 0% !important;
     width: 85% !important;
-    /*padding-left: 10%;
-    padding-right: 10%;*/
+    padding-left: 10%;
+    padding-right: 10%;
     overflow: visible;
 }
 
@@ -257,11 +257,6 @@ body {
     padding-top: 5%;
 }
 
-#succst {
-    padding-top: 5%;
-    width: 95%;
-}
-
 #puntotres {
     background-image: url('img/bgtres.png');
     background-repeat: no-repeat;
@@ -283,11 +278,6 @@ body {
     padding-left: 3%;
     padding-right: 3%;
     margin: 10px;
-}
-
-.iteme {
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 div#forhome:hover {
@@ -443,10 +433,6 @@ div#forhome:hover {
     margin-top: 65px;
 }
 
-.cities>img {
-    width: 264.03px;
-}
-
 .cities>img:hover {
     width: 100%;
     height: 100%;
@@ -485,13 +471,14 @@ div#forhome:hover {
     background-size: 50% auto;
 }
 
-#nextbut1, #prevbut1{
-    top: 52%!important;
+#nextbut1,
+#prevbut1 {
+    top: 52% !important;
 }
 
 .swiper-button-prev {
     position: absolute;
-    top:52% !important;
+    top: 52% !important;
 }
 
 .swiper {
@@ -535,9 +522,6 @@ div#forhome:hover {
 }
 
 
-#rou {
-    margin: auto;
-}
 
 
 #gri {
@@ -652,7 +636,21 @@ div#forhome:hover {
 }
 */
 
-@media (min-width: 1543px) {
+@media (min-width: 1799px) {
+    
+    #succstrow {
+        max-width: 75%;
+    }
+
+    #formc{
+        max-width: 75%;
+    }
+
+    #red{
+        
+        width: 1500px !important;
+    }
+
 }
 
 @media (min-width:1393px) {
@@ -663,27 +661,56 @@ div#forhome:hover {
 
     #efeuno {
         float: left;
+        width: 49%;
+    }
+
+    #adrianf{
+        width: 100%;
     }
 
     #efedos {
         float: right;
+        width: 49%;
+    }
+
+    .cont1.container,
+    .cont2.container,
+    .primer.container {
+        max-width: 65% !important;
+    }
+
+    .iteme {
+        margin: 0%;
+    }
+
+
+
+    .cities>img {
+        width: 100%;
     }
 }
 
 @media (min-width: 1200px) {
 
-    /* .blbat {
-        margin-left: 15% !important;
-        margin-right: 15% !important;
-    } */
+    .blbat {
+        max-width: 70% !important;
+    }
+
+    .deabajo>.container{
+        max-width: 70% !important;
+    }
 
     #locallyinv.container {
-        max-width: 1393px !important;
+        max-width: 70% !important;
     }
 
     /* .deabajo>.container {
         max-width: 1312px !important;
     } */
+
+    #d1 {
+        margin-left: 100px;
+    }
 
     .efe {
         width: 76px;
@@ -691,7 +718,6 @@ div#forhome:hover {
 
     #succst {
         padding-top: 5%;
-        width: 95%;
     }
 }
 
@@ -718,12 +744,9 @@ div#forhome:hover {
         font-size: 20px;
     }
 
-    #succstrow {
-        width: 83%;
-    }
-
     .sec {
         padding: 70px;
+        max-width: 70% !important;
     }
 
     #localbus {
@@ -742,9 +765,6 @@ div#forhome:hover {
         margin-right: 8% !important;
     }
 
-    #rou {
-        margin: auto;
-    }
 
     .nope1 {
         position: relative;
@@ -776,6 +796,10 @@ div#forhome:hover {
         line-height: 1.075;
     }
 
+    .recol{
+        max-width: 690px !important;
+    }
+
     .container-fluid>.container {
         max-width: 95% !important;
     }
@@ -783,7 +807,7 @@ div#forhome:hover {
     .cont2 {
         margin: 0px;
         margin-right: 0%;
-        padding: 0.5% 15% 0.5% 15% !important;
+        padding: 0.5% 0% 0.5% 0% !important;
         justify-content: center;
     }
 
@@ -851,13 +875,14 @@ div#forhome:hover {
 
 @media (min-width: 722px) {
     .cont1 {
-        padding: 0.5% 15% 0.5% 15% !important;
+        padding: 0.5% 0% 0.5% 0% !important;
+        /* margin: 0.5% 15% 0.5% 3% !important; */
         justify-content: center !important;
     }
 
-    .navbar-brand {
+    /* .navbar-brand {
         margin-left: 5%;
-    }
+    } */
 
     /*.navbar-toggler{
         width: 20% !important;
@@ -880,8 +905,9 @@ div#forhome:hover {
     }
 
     .dap {
-        padding-left: 12% !important;
-        padding-right: 12% !important;
+        /* padding-left: 12% !important;
+        padding-right: 12% !important; */
+        max-width: 75%;
     }
 
     /*.nope1 > .row{
@@ -949,6 +975,14 @@ div#forhome:hover {
     }
 }
 
+@media (max-width:1392px){
+    
+
+    .cities>img {
+        width: 264.03px;
+    }
+}
+
 @media (max-width: 1199px) {
     #red {
         margin-top: 25%;
@@ -976,10 +1010,6 @@ div#forhome:hover {
     .card-text {
         text-align: left;
         font-size: 16px;
-    }
-
-    .iteme {
-        margin: 0%;
     }
 
     #localbus {
@@ -1022,17 +1052,17 @@ div#forhome:hover {
 
 @media (max-width:992px) {
     .izquierdo {
-        font-size:50px;
+        font-size: 50px;
         line-height: 1.075;
     }
 
     #derecho {
-        padding-top: 10% !important;
+        /* padding-top: 10% !important;
         padding-right: 0% !important;
-        padding-left: 0% !important;
+        padding-left: 0% !important; */
         font-size: 19px;
     }
-    
+
 
     .navbar2 .navo {
         color: white;
@@ -1055,7 +1085,7 @@ div#forhome:hover {
 }
 
 @media (width:992px) {
-    .navbar2{
+    .navbar2 {
         background-color: white;
     }
 
@@ -1111,11 +1141,6 @@ div#forhome:hover {
     #red {
         margin-top: 0%;
     }
-
-    #rou {
-        margin: auto;
-    }
-
 
     #myBtn {
         display: none;
