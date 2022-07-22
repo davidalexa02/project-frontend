@@ -41,11 +41,6 @@ body {
     margin-bottom: 25px;
 }
 
-.redtitle {
-    color: red;
-    font-size: 24px;
-}
-
 .swiper-button-next::after,
 .swiper-button-prev::after {
     font-size: 23px !important;
@@ -129,6 +124,7 @@ body {
     padding-top: 3%;
     padding-bottom: 5%;
     width: 68%;
+    font-size: 18px;
 }
 
 .yapi.container-fluid {
@@ -146,37 +142,6 @@ body {
     padding-left: 10%;
     padding-right: 10%;
 }
-
-/*
-.Connecting_You_to_What_Matters {
-    font-size: 80px;
-    font-family: "Scandia";
-    color: rgb(255, 255, 255);
-    line-height: 1.075;
-    text-align: left;
-    position: absolute;
-    left: 416.938px;
-    top: 446.797px;
-    width: 474px;
-    height: 232px;
-    z-index: 370;
-}
-
-.D___P_Communications_serves_residents_and_busin {
-  font-size: 24px;
-  font-family: "FuturaBT";
-  color: rgb(255, 255, 255);
-  line-height: 1.333;
-  text-align: left;
-  position: absolute;
-  left: 975.937px;
-  top: 425.984px;
-  width: 502px;
-  height: 153px;
-  z-index: 371;
-}
-
-*/
 
 .primer {
     margin: auto;
@@ -210,7 +175,7 @@ body {
 
 .fa-phone,
 .fa-envelope {
-    font-size: 25px;
+    font-size: 33px;
 }
 
 .firstofall {
@@ -221,12 +186,18 @@ body {
     padding-top: 5%;
 }
 
+
+
+
+#succst {
+    padding-top: 5%;
+}
+
 .second {
     color: aliceblue;
     background-image: url("img/bgsec.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
     position: relative;
 }
 
@@ -292,37 +263,6 @@ div#forhome:hover {
     border-color: #dae0e5;
 }
 
-/*
-#Adrian:hover {
-    color: #212529;
-    background-color: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
-    border-color: #dae0e5;
-}
-
-#Blissfield:hover {
-    color: #212529;
-    background-color: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
-    border-color: #dae0e5;
-}
-
-#Dundee:hover {
-    color: #212529;
-    background-color: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
-    border-color: #dae0e5;
-}
-
-#Petersburg:hover {
-    color: #212529;
-    background-color: linear-gradient(rgba(0, 0, 0, 0.4) 0 0), url('img/petersburcity.png');
-    border-color: #dae0e5;
-}
-
-#Tecumseh:hover {
-    color: #212529;
-    background-color: linear-gradient(rgba(0, 0, 0, 0.4) 0 0), url('img/tecumsehcity.png');
-    border-color: #dae0e5;
-}*/
-
 .aa {
     width: 100%;
     height: 100%;
@@ -349,52 +289,6 @@ div#forhome:hover {
     padding-right: 3%;
 }
 
-/*
-#Adrian {
-    background-image: url('img/adriancity.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 313px;
-    position: relative;
-    background-size: cover;
-}
-
-#Blissfield {
-    background-image: url('img/blissfieldcity.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 313px;
-    position: relative;
-    background-size: cover;
-}
-
-#Dundee {
-    background-image: url('img/dundeecity.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 313px;
-    position: relative;
-    background-size: cover;
-}
-
-#Petersburg {
-    background-image: url('img/petersburcity.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 313px;
-    position: relative;
-    background-size: cover;
-}
-
-#Tecumseh {
-    background-image: url('img/tecumsehcity.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 313px;
-    position: relative;
-    background-size: cover;
-}*/
-
 #read {
     padding: 13px !important;
     padding-left: 40px !important;
@@ -403,7 +297,7 @@ div#forhome:hover {
 
 
 .for {
-    border-radius: 24px !important;
+    border-radius: 72px !important;
     font-weight: 1000 !important;
     color: red !important;
     padding-top: 2% !important;
@@ -422,7 +316,7 @@ div#forhome:hover {
     left: 0;
     width: 100%;
     color: #fff;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -515,7 +409,7 @@ div#forhome:hover {
 }
 
 #yo {
-    max-width: 595px;
+    max-width: 690px;
     line-height: 1.5;
     position: absolute;
     font-family: "FuturaBT", sans-serif;
@@ -538,49 +432,8 @@ div#forhome:hover {
     display: block !important;
 }
 
-/*
-.Locations____________Support____________Corpora {
-  font-size: 16px;
-  font-family: "Scandia";
-  color: rgb(245, 245, 245);
-  line-height: 1.5;
-  text-align: right;
-  position: absolute;
-  left: 477.012px;
-  top: 56.546px;
-  width: 421px;
-  height: 16px;
-  z-index: 395;
-}
-
-.Residential_____________Business_____________Se {
-  font-size: 18px;
-  font-family: "Scandia";
-  color: rgb(22, 22, 22);
-  line-height: 1.333;
-  text-align: right;
-  position: absolute;
-  left: 373.68px;
-  top: 132.89px;
-  width: 711px;
-  height: 15px;
-  z-index: 402;
-}
-
-*/
-
 #boldu {
     font-weight: bolder;
-}
-
-.navu {
-    color: #fff !important;
-    font-size: 16px;
-}
-
-.navo {
-    color: black;
-    font-size: 18px;
 }
 
 .navbar-toggler-icon {
@@ -599,14 +452,6 @@ div#forhome:hover {
     color: rgb(140, 46, 46);
 }
 
-.titfoot {
-    font-size: 20px;
-}
-
-.elemsfoot {
-    font-size: 16px;
-}
-
 #compar {
     padding-top: 6%;
     padding-left: 10%;
@@ -619,38 +464,156 @@ div#forhome:hover {
     margin-bottom: 30px;
 }
 
-/*
+@media (min-width:2280px) {
+    .izquierdo {
+        font-size: 140px !important;
+    }
 
-.We_are_continuously_expanding_and_maintaining_t {
-  font-size: 20px;
-  font-family: "FuturaBT";
-  color: rgb(255, 255, 255);
-  line-height: 1.5;
-  text-align: left;
-  position: absolute;
-  left: 418.937px;
-  top: 1183.198px;
-  width: 645px;
-  height: 171px;
-  z-index: 307;
+    #titform {
+        font-size: 60px;
+    }
+
+    .subtitform {
+        font-size: 20px;
+    }
+
+    .cardtit {
+        font-size: 35px;
+    }
+
+    .btn.btn-danger.btn-block {
+        font-size: 22px;
+    }
+
+    .form-group>label,
+    .form-group>input,
+    .form-group>textarea,
+    .form-group>select {
+        font-size: 22px;
+    }
+
+    .form-check>.form-check-label {
+        font-size: 22px;
+        padding-left: 10px;
+    }
+
+    input.form-check-input {
+        transform: scale(2);
+    }
+
+    .for {
+        font-size: 22px !important;
+    }
+
+    .col-md-6>p>a {
+        font-size: 20px;
+    }
+
+    .pi {
+        font-size: 30px !important;
+        margin: 0%;
+    }
+
+    .redtitle {
+        color: red;
+        font-size: 28px;
+    }
+
+    .mid1 {
+        font-size: 39px;
+        color: white;
+    }
+
+    .mid2 {
+        font-size: 39px;
+        color: black;
+    }
+
+    #derecho {
+        font-size: 37px !important;
+        max-width: 870px !important;
+    }
+
+
+
+    .navu {
+        color: #fff !important;
+        font-size: 20px !important;
+    }
+
+    .navo {
+        color: black;
+        font-size: 22px !important;
+    }
+
+
+    #derecho {
+        font-size: 30px !important;
+    }
+
+    .para1 {
+        font-size: 23px !important;
+    }
+
+    .para2 {
+        font-size: 23px !important;
+    }
 }
-*/
+
+@media (min-width: 2077px) and (max-width:2279px) {
+    .izquierdo {
+        font-size: 110px !important;
+    }
+
+
+    #derecho {
+        font-size: 30px !important;
+    }
+
+    .para1 {
+        font-size: 22px !important;
+    }
+
+    .para2 {
+        font-size: 22px !important;
+    }
+}
 
 @media (min-width: 1799px) {
-    
-    #succstrow {
+
+    #formc {
         max-width: 75%;
     }
 
-    #formc{
-        max-width: 75%;
-    }
-
-    #red{
-        
+    #red {
         width: 1500px !important;
     }
 
+}
+
+@media (max-width:2076px) and (min-width: 1670px) {
+    .izquierdo {
+        font-size: 100px !important;
+    }
+
+    #derecho {
+        font-size: 24px !important;
+    }
+
+
+    #derecho {
+        font-size: 30px !important;
+    }
+}
+
+@media (min-width:1544px) {
+    .titfoot {
+        font-size: 24px;
+    }
+
+    .elemsfoot {
+        font-size: 20px;
+    }
 }
 
 @media (min-width:1393px) {
@@ -659,12 +622,21 @@ div#forhome:hover {
         width: 57%;
     }
 
+    #succst {
+        max-width: 90% !important;
+    }
+
+
+    #succstrow {
+        max-width: 83%;
+    }
+
     #efeuno {
         float: left;
         width: 49%;
     }
 
-    #adrianf{
+    #adrianf {
         width: 100%;
     }
 
@@ -676,14 +648,16 @@ div#forhome:hover {
     .cont1.container,
     .cont2.container,
     .primer.container {
-        max-width: 65% !important;
+        max-width: 70% !important;
     }
 
     .iteme {
         margin: 0%;
     }
 
-
+    .blbat {
+        max-width: 70% !important;
+    }
 
     .cities>img {
         width: 100%;
@@ -692,11 +666,7 @@ div#forhome:hover {
 
 @media (min-width: 1200px) {
 
-    .blbat {
-        max-width: 70% !important;
-    }
-
-    .deabajo>.container{
+    .deabajo>.container {
         max-width: 70% !important;
     }
 
@@ -704,20 +674,12 @@ div#forhome:hover {
         max-width: 70% !important;
     }
 
-    /* .deabajo>.container {
-        max-width: 1312px !important;
-    } */
-
     #d1 {
-        margin-left: 100px;
+        max-width: 900px;
     }
 
     .efe {
         width: 76px;
-    }
-
-    #succst {
-        padding-top: 5%;
     }
 }
 
@@ -746,7 +708,7 @@ div#forhome:hover {
 
     .sec {
         padding: 70px;
-        max-width: 70% !important;
+        max-width: 65% !important;
     }
 
     #localbus {
@@ -785,8 +747,6 @@ div#forhome:hover {
     .yapi1.container-fluid {
         position: absolute;
         top: 0px;
-        /*right: 5%;
-        width: 95%;*/
     }
 }
 
@@ -796,7 +756,20 @@ div#forhome:hover {
         line-height: 1.075;
     }
 
-    .recol{
+
+
+    .navu {
+        color: #fff !important;
+        font-size: 18px;
+    }
+
+    .navo {
+        color: black;
+        font-size: 20px;
+    }
+
+
+    .recol {
         max-width: 690px !important;
     }
 
@@ -833,37 +806,21 @@ div#forhome:hover {
 
 @media (min-width: 768px) {
 
-
     #myBtn {
         display: none;
-        /* Hidden by default */
         position: fixed;
-        /* Fixed/sticky position */
         bottom: 20px;
-        /* Place the button at the bottom of the page */
         right: 30px;
-        /* Place the button 30px from the right */
         z-index: 99;
-        /* Make sure it does not overlap */
         border: none;
-        /* Remove borders */
         outline: none;
-        /* Remove outline */
         background-color: red;
-        /* Set a background color */
         color: white;
-        /* Text color */
         cursor: pointer;
-        /* Add a mouse pointer on hover */
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 18px;
-        padding-left: 18px;
-        /* Some padding */
         border-radius: 100%;
-        /* Rounded corners */
         font-size: 23px;
-        /* Increase font size */
+        width: 50px;
+        height: 50px;
     }
 
     #myBtn:hover {
@@ -876,17 +833,8 @@ div#forhome:hover {
 @media (min-width: 722px) {
     .cont1 {
         padding: 0.5% 0% 0.5% 0% !important;
-        /* margin: 0.5% 15% 0.5% 3% !important; */
         justify-content: center !important;
     }
-
-    /* .navbar-brand {
-        margin-left: 5%;
-    } */
-
-    /*.navbar-toggler{
-        width: 20% !important;
-    }*/
 }
 
 @media (min-width:577px) {
@@ -905,9 +853,7 @@ div#forhome:hover {
     }
 
     .dap {
-        /* padding-left: 12% !important;
-        padding-right: 12% !important; */
-        max-width: 75%;
+        max-width: 73%;
     }
 
     /*.nope1 > .row{
@@ -915,12 +861,7 @@ div#forhome:hover {
     }*/
 }
 
-@media (min-width: 375px) {
-
-    /*#rou {
-        width: 90%;
-        margin: auto;
-    }*/
+@media (min-width: 375px) and (max-width:2279px) {
     .pi {
         font-weight: 100;
         color: white;
@@ -928,11 +869,16 @@ div#forhome:hover {
         font-size: 24px;
         width: 100%;
         height: 100%;
-        margin: 0%;
+        margin-bottom: 0% !important;
+    }
+
+    .redtitle {
+        color: red;
+        font-size: 24px;
     }
 
     .mid1 {
-        font-size: 35px;
+        font-size: 36px !important;
         color: white;
     }
 
@@ -942,50 +888,38 @@ div#forhome:hover {
     }
 }
 
-/*@media (min-width: 1400px) {
-    #rou {
-        width: 75% !important;
-    }
-}*/
-
-/*
-    .navbar2 {
-        background-color: rgb(255, 255, 255);
-    }
-
-    .navbar2 .navo {
-        color: black;
-        text-align: center !important;
-    }
-
-    .navu {
-        padding-top: 8px;
-        padding-bottom: 8px;
-        text-align: center !important;
-    }
-
-    .navbar {
-        padding: 0% !important;
-    }
-*/
-
 @media (max-width: 1543px) {
     #unico {
         margin-right: 60px;
     }
-}
 
-@media (max-width:1392px){
-    
 
-    .cities>img {
-        width: 264.03px;
+
+    .titfoot {
+        font-size: 20px;
+    }
+
+    .elemsfoot {
+        font-size: 16px;
     }
 }
 
-@media (max-width: 1199px) {
+@media (max-width:1392px) {
+    .cities>img {
+        min-width: 100%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1392px) {
+
+    #efeuno {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 1505px) {
     #red {
-        margin-top: 25%;
+        margin-top: 30%;
     }
 }
 
@@ -1035,8 +969,8 @@ div#forhome:hover {
     }
 
     #red {
-        margin-top: 55%;
-        margin-bottom: 5%;
+        margin-top: 40%;
+        margin-bottom: 10%;
     }
 
     .dropdown-menu {
@@ -1057,9 +991,6 @@ div#forhome:hover {
     }
 
     #derecho {
-        /* padding-top: 10% !important;
-        padding-right: 0% !important;
-        padding-left: 0% !important; */
         font-size: 19px;
     }
 
@@ -1093,44 +1024,6 @@ div#forhome:hover {
         color: black;
     }
 }
-
-
-/*@media (min-width:991px) {
-    #derecho {
-        padding-top: 5%;
-        padding-right: 0% !important;
-        padding-left: 0% !important;
-    }
-}*/
-
-/*
-@media (min-width: 760px) {
-    .swiper-button-next1 {
-        right: 20px;
-        transform: rotate(90deg);
-    }
-
-    .swiper-button-prev1 {
-        left: 20px;
-        transform: rotate(90deg);
-    }
-
-    .swiper-button-next2 {
-        right: 20px;
-        transform: rotate(90deg);
-    }
-
-    .swiper-button-prev2 {
-        left: 20px;
-        transform: rotate(90deg);
-    }
-
-
-    
-}*/
-
-/*@media (max-width: 768px) {
-}*/
 
 @media (max-width: 767px) {
 
@@ -1202,7 +1095,7 @@ div#forhome:hover {
         font-size: 19px;
         width: 100%;
         height: 100%;
-        margin: 0%;
+        margin: 0% !important;
     }
 }
 
@@ -1233,5 +1126,12 @@ div#forhome:hover {
     .mid2 {
         font-size: 27px;
         color: black;
+    }
+
+
+
+    .redtitle {
+        color: red;
+        font-size: 24px;
     }
 }

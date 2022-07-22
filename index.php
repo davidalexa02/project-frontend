@@ -54,7 +54,7 @@ if (isset($_POST['submit'])) {
 
         $mail->setFrom('adndavid8@gmail.com');
 
-        $mail->addAddress('toxteg@gmail.com');
+        $mail->addAddress('francescamendoza62@gmail.com');
 
         $mail->isHTML(true);
         $mail->Subject = 'Form Submission';
@@ -225,7 +225,8 @@ if (isset($_POST['submit'])) {
                     <b class="mid2" data-aos-once="true" data-aos="fade-up">Serving Over 1,300 Businesses</b>
                 </div>
             </div>
-            <div class="resizedcols row text-center float-none mx-auto">
+            <!-- resizedcols -->
+            <div class="row text-center float-none mx-auto">
                 <div class="col-md-7 mx-auto">
                     <p class="para2" data-aos-once="true" data-aos="fade-up">We are proud to serve over 1,300 commercial entities in the
                         local area, including small-to-large businesses, hospital systems, K-12 school districts, higher
@@ -310,7 +311,7 @@ if (isset($_POST['submit'])) {
             </div>
             <div class="row py-4">
                 <div class="col-md-5 mx-auto">
-                    <b class="mid1" data-aos-once="true" data-aos="fade-up">Bringing You a Faster, More Reliable Network with Fiber Optics</b>
+                    <b class="mid1 recol" data-aos-once="true" data-aos="fade-up">Bringing You a Faster, More Reliable Network with Fiber Optics</b>
                 </div>
             </div>
             <div class="row text-center float-none">
@@ -578,7 +579,7 @@ if (isset($_POST['submit'])) {
                     <div class="maintxt justify-content-center">
                         <img src="img/cs.png" class="img-responsive">
                         <div class="yapi container-fluid">
-                            <h3 class="mb-4 text-dark font-weight-bold" class="mid2">How May We Help You</h3>
+                            <h3 class="mid2 mb-4 text-dark font-weight-bold" class="mid2">How May We Help You</h3>
                             <div class="row">
                                 <div class="col-md-6">
                                     <p><a href="#">Check Availability</a></p>
@@ -605,7 +606,7 @@ if (isset($_POST['submit'])) {
 
             <div class="card" data-aos-once="true" data-aos="fade-up">
                 <div class="card-body">
-                    <h1 class="font-weight-light text-center py-4">Contact Us</h1>
+                    <h1 id="titform" class="font-weight-light text-center py-4">Contact Us</h1>
                     <div class="row">
                         <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                             <div class="row pt-3 justify-content-center">
@@ -613,8 +614,8 @@ if (isset($_POST['submit'])) {
                                     <span><i class="fa-solid fa-phone"></i></span>
                                 </div>
                                 <div class="col-lg-10 col-md-9 col-sm-9 col-9">
-                                    <h4 class="font-weight-light">Give Us A Ring</h4>
-                                    <p><a class="text-danger" href="tel:800-311-7340">800-311-7340</a> <br>
+                                    <h4 class="cardtit font-weight-light">Give Us A Ring</h4>
+                                    <p class="subtitform"><a class="text-danger" href="tel:800-311-7340">800-311-7340</a> <br>
                                         Mon-Fri, 8:00-22:00
                                     </p>
                                 </div>
@@ -624,8 +625,8 @@ if (isset($_POST['submit'])) {
                                     <span><i class="fa-solid fa-envelope"></i></span>
                                 </div>
                                 <div class="col-lg-10 col-md-9 col-sm-9 col-9">
-                                    <h4 class="font-weight-light">Email Us</h4>
-                                    <p><a class="text-danger" href="mailto:webmaster@example.com">d&p@comms.com</a>
+                                    <h4 class="cardtit font-weight-light">Email Us</h4>
+                                    <p class="subtitform"><a class="text-danger" href="mailto:webmaster@example.com">d&p@comms.com</a>
                                     </p>
                                 </div>
                             </div>
@@ -640,29 +641,29 @@ if (isset($_POST['submit'])) {
                                 <div class="form-row">
                                     <div class="form-group col-lg-6 col-md-12 col-sm-12 col-12">
                                         <label for="firstName">First name</label>
-                                        <input type="text" id="firstName" name="firstName" class="form-control" placeholder="First name" required>
+                                        <input type="text" id="firstName" name="firstName" class="form-control form-control-lg" placeholder="First name" required>
                                     </div>
                                     <div class="form-group col-lg-6 col-md-12 col-sm-12 col-12">
                                         <label for="lastName">Last name</label>
-                                        <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Last name" required>
+                                        <input type="text" id="lastName" name="lastName" class="form-control form-control-lg" placeholder="Last name" required>
                                     </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="form-group col-lg-12 col-md-12 col-sm-12 col-12">
                                         <label for="email">Email</label>
-                                        <input type="Email" id="email" name="email" class="form-control" placeholder="Email" required>
+                                        <input type="Email" id="email" name="email" class="form-control form-control-lg" placeholder="Email" required>
                                     </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="form-group col-lg-12 col-md-12 col-sm-12 col-12">
                                         <label for="phone">Phone number</label>
-                                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="Phone number" required>
+                                        <input type="tel" id="phone" name="phone" class="form-control form-control-lg" placeholder="Phone number" required>
                                     </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="form-group col-lg-12 col-md-12 col-sm-12 col-12">
                                         <label for="message">Message</label>
-                                        <textarea name="message" id="message" rows="5" class="form-control" placeholder="Write Your Message" required></textarea>
+                                        <textarea name="message" id="message" rows="5" class="form-control form-control-lg" placeholder="Write Your Message" required></textarea>
                                     </div>
                                 </div>
                                 <div class="form-row">
@@ -678,7 +679,7 @@ if (isset($_POST['submit'])) {
                                 <div class="form-row">
                                     <div class="form-group col-lg-12 col-md-12 col-sm-12 col-12">
                                         <label for="contact">How do you want to be contacted?</label>
-                                        <select id="contact" name="contact" class="form-select form-control">
+                                        <select id="contact" name="contact" class="form-select form-control form-control-lg">
                                             <option value="1">Email</option>
                                             <option value="2">Phone</option>
                                             <option value="3">Message</option>
